@@ -11,6 +11,7 @@ public class SpringGitserviceApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		// feature/main 용
 	}
 
 }
