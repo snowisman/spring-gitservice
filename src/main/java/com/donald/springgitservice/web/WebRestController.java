@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 @AllArgsConstructor
 public class WebRestController {
 
-	// 스프링 Bean 주입 방식 -> @Autowires, setter, 생성장
+	// 스프링 Bean 주입 방식 -> @Autowires, setter, 생성자
 	// 생성자 주입 방식 권장 (= @AllArgsConstructor)
 	private PostsRepository postsRepository;
 
