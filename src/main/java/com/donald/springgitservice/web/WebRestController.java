@@ -56,7 +56,7 @@ public class WebRestController {
 
 	@RequestMapping(value = "/hello", method = RequestMethod.GET, produces = "application/json; charset=UTF-8")
 	public HttpServletResponse hello(HttpServletResponse response) throws Exception{
-		response.setStatus(500, "500 Error");
+		response.setStatus(500, "500 Error!!!");
 
 		throw new Exception();
 
