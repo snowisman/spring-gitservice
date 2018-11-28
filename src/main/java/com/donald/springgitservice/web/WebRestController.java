@@ -1,4 +1,4 @@
-/*package com.donald.springgitservice.web;
+package com.donald.springgitservice.web;
 
 import com.donald.springgitservice.domain.posts.Posts;
 import com.donald.springgitservice.domain.posts.PostsRepository;
@@ -21,7 +21,8 @@ public class WebRestController {
 
 	@GetMapping("/hello")
 	public String hello() {
-		System.out.println("Git Test.222");
+		System.out.println("Git Test.33");
+
 		return "helloWorld";
 	}
 
@@ -30,8 +31,8 @@ public class WebRestController {
 		postsRepository.save(dto.toEntity());
 	}
 
-}*/
-
+}
+/*
 package com.donald.springgitservice.web;
 
 		import com.donald.springgitservice.domain.posts.Posts;
@@ -67,4 +68,4 @@ public class WebRestController {
 		postsRepository.save(dto.toEntity());
 	}
 
-}
+}*/
