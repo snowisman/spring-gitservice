@@ -21,7 +21,7 @@ public class WebRestController {
 
 	@GetMapping("/hello")
 	public String hello() {
-		System.out.println("STEP2");
+		System.out.println("STEP3");
 
 		return "helloWorld";
 	}
