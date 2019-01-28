@@ -21,7 +21,9 @@ public class WebRestController {
 
 	@GetMapping("/hello")
 	public String hello() {
-		System.out.println("Git Test.44");
+
+		System.out.println("Git Kraken First donald to donald2");
+		System.out.println("Git Kraken First donald to donald2 : Edit file");
 
 		return "helloWorld";
 	}
